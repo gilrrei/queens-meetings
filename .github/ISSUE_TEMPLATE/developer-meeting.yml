@@ -1,0 +1,89 @@
+name: Developer Meeting
+description: Template for scheduling and documenting developer meetings.
+title: "Meeting on dd.mm.yyyy"
+labels: ["meeting type::developer"]
+body:
+  - type: textarea
+    id: meeting_intro
+    attributes:
+      label: Developer Meeting
+      description: Short summary shown in the final issue
+      value: |
+        This issue documents a regular developer meeting, including participants, agenda, action items, and minutes.
+
+  - type: textarea
+    id: zoom_meeting
+    attributes:
+      label: Zoom
+      value: |
+        We typically meet online via Zoom.
+        Any QUEENS contributor is welcome to join. 
+        If you are interested, please join our Slack workspace or contact a maintainer to receive the link.
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: Date of the meeting in dd.mm.yyyy format
+      placeholder: dd.mm.yyyy
+    validations:
+      required: true
+
+  - type: input
+    id: time
+    attributes:
+      label: Time
+      description: Time of the meeting (e.g., 13:00 (GMT+1))
+      placeholder: "add time of meeting here"
+      value: "13:00 (GMT+1)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: participants
+    attributes:
+      label: Participants
+      description: List regular participants. Strike through (~~) names if not attending. Add yours if missing.
+      placeholder: "@ mention all planned participants here"
+      value: "@sbrandstaeter\n@gilrrei\n@maxdinkel\n@leahaeusel"
+    validations:
+      required: true
+
+  - type: input
+    id: host
+    attributes:
+      label: Host
+      description: GitHub handle of the meeting host
+      placeholder: "@ mention the host here"
+      value: "@sbrandstaeter"
+    validations:
+      required: true
+
+  - type: input
+    id: scribe
+    attributes:
+      label: Scribe
+      description: GitHub handle of the person taking notes
+      placeholder: "@ mention the scribe here"
+      value: "@gilrrei"
+    validations:
+      required: true
+
+  - type: textarea
+    id: agenda
+    attributes:
+      label: Agenda
+      description: Add agenda items here.
+      value: "Adapt the agenda here directly or comment points you would like to add below.\n1. Review **Action Items** from the previous meeting"
+
+  - type: textarea
+    id: action_items
+    attributes:
+      label: Action Items
+      description: Use this section during the meeting to track tasks. Mention responsible members.
+
+  - type: textarea
+    id: minutes
+    attributes:
+      label: Meeting Minutes
+      description: Add notes and summaries from the meeting here.
