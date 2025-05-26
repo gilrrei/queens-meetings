@@ -45,7 +45,7 @@ body:
       label: Participants
       description: List regular participants. Strike through (~~) names if not attending. Add yours if missing.
       placeholder: "@ mention all planned participants here"
-      value: "@sbrandstaeter\n@gilrrei\n@maxdinkel\n@leahaeusel"
+      value: "@sbrandstaeter\n@gilrrei\n@maxdinkel\n@leahaeusel\n@shervas\n@danielwolff1"
     validations:
       required: true
 
