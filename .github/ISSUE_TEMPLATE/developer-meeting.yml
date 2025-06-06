@@ -74,7 +74,7 @@ body:
     attributes:
       label: Agenda
       description: Add agenda items here.
-      value: "Adapt the agenda here directly or comment points you would like to add below.\n1. Review **Action Items** from the previous meeting"
+      value: "Adapt the agenda here directly or comment points you would like to add below.\n1. Review **Action Items** from the previous meeting\n2. Check for changes that should be added to the changelog or announced to the community."
 
   - type: textarea
     id: action_items
