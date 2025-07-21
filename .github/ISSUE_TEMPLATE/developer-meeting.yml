@@ -45,7 +45,7 @@ body:
       label: Participants
       description: List regular participants. Strike through (~~) names if not attending. Add yours if missing.
       placeholder: "@ mention all planned participants here"
-      value: "@sbrandstaeter\n@gilrrei\n@maxdinkel\n@leahaeusel\n@shervas\n@danielwolff1"
+      value: "@sbrandstaeter\n@gilrrei\n@maxdinkel\n@leahaeusel\n@shervas\n@danielwolff1\n@reginabuehler"
     validations:
       required: true
 
@@ -65,7 +65,7 @@ body:
       label: Scribe
       description: GitHub handle of the person taking notes
       placeholder: "@ mention the scribe here"
-      value: "@gilrrei"
+      value: "@shervas"
     validations:
       required: true
 
