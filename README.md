@@ -4,9 +4,9 @@ This repository is used to manage, organize, and archive meetings and related do
 
 ### Meeting Schedule
 
-We currently hold the following regular meetings:
-- **Bi-weekly Developer Meeting**: Fridays at 13:00 (GMT+1), lasting 60 minutes  
-- **Weekly Standup**: Mondays at 10:00 (GMT+1), lasting 10 minutes
+We currently hold the following regular, alternating meetings:
+- **Bi-weekly Developer Meeting**: Mondays at 13:00 (GMT+1), lasting 60 minutes  
+- **Bi-weekly Standup**: Mondays at 13:00 (GMT+1), lasting 10 minutes
 
 For exact dates of upcoming developer meetings, please refer to the list of [GitHub issues](https://github.com/queens-py/queens-meetings/issues).
 
